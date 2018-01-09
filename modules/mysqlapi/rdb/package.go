@@ -1,18 +1,18 @@
 package rdb
 
 import (
-	commonDb "github.com/Cepave/open-falcon-backend/common/db"
-	f "github.com/Cepave/open-falcon-backend/common/db/facade"
-	commonNqmDb "github.com/Cepave/open-falcon-backend/common/db/nqm"
-	commonOwlDb "github.com/Cepave/open-falcon-backend/common/db/owl"
-	log "github.com/Cepave/open-falcon-backend/common/logruslog"
-	apiModel "github.com/Cepave/open-falcon-backend/common/model/mysqlapi"
+	commonDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db"
+	f "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/facade"
+	commonNqmDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/nqm"
+	commonOwlDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/owl"
+	log "github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
+	apiModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/mysqlapi"
 
-	bossdb "github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb/boss"
-	"github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb/cmdb"
-	graphdb "github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb/graph"
-	"github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb/hbsdb"
-	apiOwlDb "github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb/owl"
+	bossdb "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb/boss"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb/cmdb"
+	graphdb "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb/graph"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb/hbsdb"
+	apiOwlDb "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb/owl"
 )
 
 const (

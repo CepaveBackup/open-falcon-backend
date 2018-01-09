@@ -2,17 +2,17 @@ package nqm
 
 import (
 	"fmt"
-	nqmModel "github.com/Cepave/open-falcon-backend/common/model/nqm"
-	owlModel "github.com/Cepave/open-falcon-backend/common/model/owl"
-	dsl "github.com/Cepave/open-falcon-backend/modules/query/dsl/nqm_parser" // As NQM intermediate representation
-	model "github.com/Cepave/open-falcon-backend/modules/query/model/nqm"
+	nqmModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/nqm"
+	owlModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/owl"
+	dsl "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/dsl/nqm_parser" // As NQM intermediate representation
+	model "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/model/nqm"
 	"reflect"
 	"time"
 
-	cache "github.com/Cepave/open-falcon-backend/common/ccache"
-	nqmService "github.com/Cepave/open-falcon-backend/common/service/nqm"
-	owlService "github.com/Cepave/open-falcon-backend/common/service/owl"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	cache "github.com/DistributedMonitoringSystem/open-falcon-backend/common/ccache"
+	nqmService "github.com/DistributedMonitoringSystem/open-falcon-backend/common/service/nqm"
+	owlService "github.com/DistributedMonitoringSystem/open-falcon-backend/common/service/owl"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/utils"
 )
 
 /**

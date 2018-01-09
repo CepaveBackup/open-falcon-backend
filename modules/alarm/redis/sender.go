@@ -2,8 +2,8 @@ package redis
 
 import (
 	"encoding/json"
-	"github.com/Cepave/open-falcon-backend/modules/alarm/g"
-	"github.com/Cepave/open-falcon-backend/modules/sender/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/alarm/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/sender/model"
 	log "github.com/sirupsen/logrus"
 	"strings"
 )

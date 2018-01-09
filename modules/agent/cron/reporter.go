@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Cepave/open-falcon-backend/common/model"
-	"github.com/Cepave/open-falcon-backend/modules/agent/g"
-	"github.com/Cepave/open-falcon-backend/modules/agent/plugins"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/agent/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/agent/plugins"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -1,7 +1,7 @@
 package http
 
 import (
-	"github.com/Cepave/open-falcon-backend/modules/hbs/service"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/hbs/service"
 	"github.com/gin-gonic/gin"
 )
 

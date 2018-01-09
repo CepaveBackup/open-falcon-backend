@@ -3,13 +3,13 @@ package restful
 import (
 	"github.com/gin-gonic/gin"
 
-	commonGin "github.com/Cepave/open-falcon-backend/common/gin"
-	"github.com/Cepave/open-falcon-backend/common/gin/mvc"
-	log "github.com/Cepave/open-falcon-backend/common/logruslog"
-	ov "github.com/Cepave/open-falcon-backend/common/validate"
+	commonGin "github.com/DistributedMonitoringSystem/open-falcon-backend/common/gin"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/gin/mvc"
+	log "github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
+	ov "github.com/DistributedMonitoringSystem/open-falcon-backend/common/validate"
 
-	graphRest "github.com/Cepave/open-falcon-backend/modules/mysqlapi/restful/graph"
-	owlRest "github.com/Cepave/open-falcon-backend/modules/mysqlapi/restful/owl"
+	graphRest "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/restful/graph"
+	owlRest "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/restful/owl"
 )
 
 var logger = log.NewDefaultLogger("INFO")

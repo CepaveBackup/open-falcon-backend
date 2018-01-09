@@ -6,8 +6,8 @@ import (
 
 	"strings"
 
-	"github.com/Cepave/open-falcon-backend/modules/fe/g"
-	"github.com/Cepave/open-falcon-backend/modules/fe/model/uic"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/fe/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/fe/model/uic"
 	"github.com/astaxie/beego/orm"
 	log "github.com/sirupsen/logrus"
 )

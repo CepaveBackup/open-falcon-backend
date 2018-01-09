@@ -6,10 +6,10 @@ import (
 	"github.com/satori/go.uuid"
 	gt "gopkg.in/h2non/gentleman.v2"
 
-	oHttp "github.com/Cepave/open-falcon-backend/common/http"
-	"github.com/Cepave/open-falcon-backend/common/http/client"
-	oJson "github.com/Cepave/open-falcon-backend/common/json"
-	model "github.com/Cepave/open-falcon-backend/common/model/owl"
+	oHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/http"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/http/client"
+	oJson "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	model "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/owl"
 	"github.com/juju/errors"
 )
 

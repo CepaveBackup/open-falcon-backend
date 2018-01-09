@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	h "github.com/Cepave/open-falcon-backend/modules/f2e-api/app/helper"
-	d "github.com/Cepave/open-falcon-backend/modules/f2e-api/app/model/dashboard"
+	h "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/helper"
+	d "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/model/dashboard"
 	"github.com/gin-gonic/gin"
 )
 

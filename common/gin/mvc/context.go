@@ -10,11 +10,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"gopkg.in/go-playground/validator.v9"
 
-	ogin "github.com/Cepave/open-falcon-backend/common/gin"
-	"github.com/Cepave/open-falcon-backend/common/model"
-	oreflect "github.com/Cepave/open-falcon-backend/common/reflect"
-	ot "github.com/Cepave/open-falcon-backend/common/types"
-	ov "github.com/Cepave/open-falcon-backend/common/validate"
+	ogin "github.com/DistributedMonitoringSystem/open-falcon-backend/common/gin"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	oreflect "github.com/DistributedMonitoringSystem/open-falcon-backend/common/reflect"
+	ot "github.com/DistributedMonitoringSystem/open-falcon-backend/common/types"
+	ov "github.com/DistributedMonitoringSystem/open-falcon-backend/common/validate"
 )
 
 // Defines configuration of MVC framework

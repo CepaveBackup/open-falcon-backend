@@ -1,7 +1,7 @@
 package dashboard
 
 import (
-	con "github.com/Cepave/open-falcon-backend/modules/f2e-api/config"
+	con "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/config"
 )
 
 // +-------+------------------+------+-----+-------------------+-----------------------------+

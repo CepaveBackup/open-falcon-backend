@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	cutils "github.com/Cepave/open-falcon-backend/common/utils"
-	"github.com/Cepave/open-falcon-backend/modules/transfer/proc"
-	"github.com/Cepave/open-falcon-backend/modules/transfer/sender"
+	cutils "github.com/DistributedMonitoringSystem/open-falcon-backend/common/utils"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/transfer/proc"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/transfer/sender"
 )
 
 func configProcHttpRoutes() {

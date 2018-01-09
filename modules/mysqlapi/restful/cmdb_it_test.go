@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"time"
 
-	oClient "github.com/Cepave/open-falcon-backend/common/http/client"
-	oJson "github.com/Cepave/open-falcon-backend/common/json"
-	oGko "github.com/Cepave/open-falcon-backend/common/testing/ginkgo"
-	gb "github.com/Cepave/open-falcon-backend/common/testing/ginkgo/builder"
+	oClient "github.com/DistributedMonitoringSystem/open-falcon-backend/common/http/client"
+	oJson "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	oGko "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/ginkgo"
+	gb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/ginkgo/builder"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

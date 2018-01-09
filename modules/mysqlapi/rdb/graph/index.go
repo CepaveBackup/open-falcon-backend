@@ -3,7 +3,7 @@ package graph
 import (
 	"time"
 
-	"github.com/Cepave/open-falcon-backend/common/db"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/db"
 )
 
 type VacuumEndpointResult struct {

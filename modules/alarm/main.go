@@ -6,12 +6,12 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/Cepave/open-falcon-backend/common/logruslog"
-	"github.com/Cepave/open-falcon-backend/common/vipercfg"
-	"github.com/Cepave/open-falcon-backend/modules/alarm/cron"
-	"github.com/Cepave/open-falcon-backend/modules/alarm/g"
-	"github.com/Cepave/open-falcon-backend/modules/alarm/http"
-	"github.com/Cepave/open-falcon-backend/modules/alarm/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/vipercfg"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/alarm/cron"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/alarm/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/alarm/http"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/alarm/model"
 	"github.com/spf13/pflag"
 )
 

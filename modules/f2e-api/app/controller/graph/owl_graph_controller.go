@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"strings"
 
-	h "github.com/Cepave/open-falcon-backend/modules/f2e-api/app/helper"
-	"github.com/Cepave/open-falcon-backend/modules/f2e-api/app/helper/filter"
-	m "github.com/Cepave/open-falcon-backend/modules/f2e-api/app/model/graph"
+	h "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/helper"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/helper/filter"
+	m "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/model/graph"
 
-	"github.com/Cepave/open-falcon-backend/modules/f2e-api/app/model/boss"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/model/boss"
 	"github.com/gin-gonic/gin"
 )
 

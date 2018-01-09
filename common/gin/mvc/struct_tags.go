@@ -10,10 +10,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	ogin "github.com/Cepave/open-falcon-backend/common/gin"
-	"github.com/Cepave/open-falcon-backend/common/model"
-	rt "github.com/Cepave/open-falcon-backend/common/reflect/types"
-	ot "github.com/Cepave/open-falcon-backend/common/types"
+	ogin "github.com/DistributedMonitoringSystem/open-falcon-backend/common/gin"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	rt "github.com/DistributedMonitoringSystem/open-falcon-backend/common/reflect/types"
+	ot "github.com/DistributedMonitoringSystem/open-falcon-backend/common/types"
 )
 
 const mvcTag = "mvc"

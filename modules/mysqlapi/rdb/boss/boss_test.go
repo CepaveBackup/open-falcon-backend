@@ -3,7 +3,7 @@ package boss
 import (
 	"database/sql"
 
-	model "github.com/Cepave/open-falcon-backend/modules/mysqlapi/model"
+	model "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/model"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

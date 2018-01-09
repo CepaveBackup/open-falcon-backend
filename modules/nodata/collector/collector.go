@@ -8,7 +8,7 @@ import (
 	"github.com/toolkits/container/nmap"
 	ttime "github.com/toolkits/time"
 
-	"github.com/Cepave/open-falcon-backend/modules/nodata/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/nodata/g"
 )
 
 // 主动收集到的监控数据 的缓存

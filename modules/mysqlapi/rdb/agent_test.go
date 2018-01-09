@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"time"
 
-	commonDb "github.com/Cepave/open-falcon-backend/common/db"
-	otest "github.com/Cepave/open-falcon-backend/common/testing"
-	ocheck "github.com/Cepave/open-falcon-backend/common/testing/check"
-	dbTest "github.com/Cepave/open-falcon-backend/common/testing/db"
+	commonDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db"
+	otest "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing"
+	ocheck "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/check"
+	dbTest "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/db"
 
 	. "gopkg.in/check.v1"
 )

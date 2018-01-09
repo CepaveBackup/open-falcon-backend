@@ -7,19 +7,19 @@ import (
 
 	"github.com/spf13/viper"
 
-	oHttp "github.com/Cepave/open-falcon-backend/common/http"
-	client "github.com/Cepave/open-falcon-backend/common/http/client"
-	"github.com/Cepave/open-falcon-backend/common/logruslog"
-	oos "github.com/Cepave/open-falcon-backend/common/os"
-	"github.com/Cepave/open-falcon-backend/common/vipercfg"
+	oHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/http"
+	client "github.com/DistributedMonitoringSystem/open-falcon-backend/common/http/client"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
+	oos "github.com/DistributedMonitoringSystem/open-falcon-backend/common/os"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/vipercfg"
 
-	"github.com/Cepave/open-falcon-backend/modules/task/collector"
-	"github.com/Cepave/open-falcon-backend/modules/task/cron"
-	"github.com/Cepave/open-falcon-backend/modules/task/database"
-	"github.com/Cepave/open-falcon-backend/modules/task/g"
-	"github.com/Cepave/open-falcon-backend/modules/task/http"
-	"github.com/Cepave/open-falcon-backend/modules/task/index"
-	"github.com/Cepave/open-falcon-backend/modules/task/proc"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/task/collector"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/task/cron"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/task/database"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/task/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/task/http"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/task/index"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/task/proc"
 )
 
 func main() {

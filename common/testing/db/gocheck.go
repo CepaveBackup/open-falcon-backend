@@ -3,10 +3,10 @@ package db
 import (
 	check "gopkg.in/check.v1"
 
-	commonDb "github.com/Cepave/open-falcon-backend/common/db"
-	f "github.com/Cepave/open-falcon-backend/common/db/facade"
+	commonDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db"
+	f "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/facade"
 
-	tflag "github.com/Cepave/open-falcon-backend/common/testing/flag"
+	tflag "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/flag"
 )
 
 // This function is used to:

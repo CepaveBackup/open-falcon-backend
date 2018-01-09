@@ -2,10 +2,10 @@ package http
 
 import (
 	"encoding/json"
-	log "github.com/Cepave/open-falcon-backend/common/logruslog"
+	log "github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
 	"net/http"
 
-	"github.com/Cepave/open-falcon-backend/modules/task/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/task/g"
 )
 
 var logger = log.NewDefaultLogger("INFO")

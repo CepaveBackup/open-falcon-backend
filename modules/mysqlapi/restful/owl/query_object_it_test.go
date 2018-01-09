@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	client "github.com/Cepave/open-falcon-backend/common/http/client"
-	json "github.com/Cepave/open-falcon-backend/common/json"
-	ogko "github.com/Cepave/open-falcon-backend/common/testing/ginkgo"
+	client "github.com/DistributedMonitoringSystem/open-falcon-backend/common/http/client"
+	json "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	ogko "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/ginkgo"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

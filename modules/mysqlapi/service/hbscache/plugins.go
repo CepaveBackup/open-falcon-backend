@@ -4,7 +4,7 @@ import (
 	"sort"
 	"sync"
 
-	db "github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb/hbsdb"
+	db "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb/hbsdb"
 )
 
 // 一个HostGroup可以绑定多个Plugin

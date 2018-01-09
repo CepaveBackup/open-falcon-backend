@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	json "github.com/Cepave/open-falcon-backend/common/json"
-	ogko "github.com/Cepave/open-falcon-backend/common/testing/ginkgo"
+	json "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	ogko "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/ginkgo"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

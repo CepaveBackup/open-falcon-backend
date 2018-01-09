@@ -4,13 +4,13 @@ import (
 	"net"
 	"reflect"
 
-	nqmTestingDb "github.com/Cepave/open-falcon-backend/common/db/nqm/testing"
-	owlDb "github.com/Cepave/open-falcon-backend/common/db/owl"
-	commonModel "github.com/Cepave/open-falcon-backend/common/model"
-	nqmModel "github.com/Cepave/open-falcon-backend/common/model/nqm"
-	ocheck "github.com/Cepave/open-falcon-backend/common/testing/check"
-	dbTest "github.com/Cepave/open-falcon-backend/common/testing/db"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	nqmTestingDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/nqm/testing"
+	owlDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/owl"
+	commonModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	nqmModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/nqm"
+	ocheck "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/check"
+	dbTest "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/db"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/utils"
 	. "gopkg.in/check.v1"
 )
 

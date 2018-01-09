@@ -1,7 +1,7 @@
 package home
 
 import (
-	"github.com/Cepave/open-falcon-backend/modules/fe/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/fe/g"
 	"github.com/astaxie/beego"
 )
 

@@ -1,7 +1,7 @@
 package http
 
 import (
-	log "github.com/Cepave/open-falcon-backend/common/logruslog"
+	log "github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
 )
 
 var (

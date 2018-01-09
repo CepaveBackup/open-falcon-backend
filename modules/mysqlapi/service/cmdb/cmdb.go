@@ -1,11 +1,11 @@
 package cmdb
 
 import (
-	"github.com/Cepave/open-falcon-backend/modules/mysqlapi/model"
-	bossRdb "github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb/boss"
-	cmdbRdb "github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb/cmdb"
-	"github.com/Cepave/open-falcon-backend/modules/mysqlapi/service"
-	bossSrv "github.com/Cepave/open-falcon-backend/modules/mysqlapi/service/boss"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/model"
+	bossRdb "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb/boss"
+	cmdbRdb "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb/cmdb"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/service"
+	bossSrv "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/service/boss"
 )
 
 func SyncDataFromBoss() (*model.OwlScheduleLog, error) {

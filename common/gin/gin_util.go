@@ -2,7 +2,7 @@ package gin
 
 import (
 	"fmt"
-	model "github.com/Cepave/open-falcon-backend/common/model"
+	model "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
 	"github.com/gin-gonic/gin"
 	"regexp"
 	"strconv"

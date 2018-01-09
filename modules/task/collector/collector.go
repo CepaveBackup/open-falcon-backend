@@ -15,9 +15,9 @@ import (
 	nhttpclient "github.com/toolkits/http/httpclient"
 	ntime "github.com/toolkits/time"
 
-	cmodel "github.com/Cepave/open-falcon-backend/common/model"
-	"github.com/Cepave/open-falcon-backend/modules/task/g"
-	"github.com/Cepave/open-falcon-backend/modules/task/proc"
+	cmodel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/task/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/task/proc"
 )
 
 var (

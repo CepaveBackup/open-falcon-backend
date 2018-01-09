@@ -3,12 +3,12 @@ package rdb
 import (
 	"time"
 
-	commonDb "github.com/Cepave/open-falcon-backend/common/db"
-	osqlx "github.com/Cepave/open-falcon-backend/common/db/sqlx"
-	gormExt "github.com/Cepave/open-falcon-backend/common/gorm"
-	nqmModel "github.com/Cepave/open-falcon-backend/common/model/nqm"
-	"github.com/Cepave/open-falcon-backend/common/utils"
-	"github.com/Cepave/open-falcon-backend/modules/mysqlapi/model"
+	commonDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db"
+	osqlx "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/sqlx"
+	gormExt "github.com/DistributedMonitoringSystem/open-falcon-backend/common/gorm"
+	nqmModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/nqm"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/utils"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/model"
 	"github.com/jmoiron/sqlx"
 )
 

@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	cmodel "github.com/Cepave/open-falcon-backend/common/model"
+	cmodel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
 )
 
 func TestDemultiplex(t *testing.T) {

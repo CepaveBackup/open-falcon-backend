@@ -3,8 +3,8 @@ package alarm
 import (
 	"time"
 
-	"github.com/Cepave/open-falcon-backend/modules/f2e-api/app/model/uic"
-	"github.com/Cepave/open-falcon-backend/modules/f2e-api/config"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/model/uic"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/config"
 )
 
 // +--------------+------------------+------+-----+-------------------+-----------------------------+

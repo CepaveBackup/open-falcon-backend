@@ -1,8 +1,8 @@
 package nqm
 
 import (
-	"github.com/Cepave/open-falcon-backend/common/conform"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/conform"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/utils"
 	. "gopkg.in/check.v1"
 )
 

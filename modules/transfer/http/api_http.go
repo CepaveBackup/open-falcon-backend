@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	cmodel "github.com/Cepave/open-falcon-backend/common/model"
+	cmodel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
 
-	"github.com/Cepave/open-falcon-backend/modules/transfer/service"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/transfer/service"
 )
 
 func configApiHttpRoutes() {

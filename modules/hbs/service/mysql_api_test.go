@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"time"
 
-	cModel "github.com/Cepave/open-falcon-backend/common/model"
-	cModelConfig "github.com/Cepave/open-falcon-backend/common/model/config"
+	cModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	cModelConfig "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/config"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

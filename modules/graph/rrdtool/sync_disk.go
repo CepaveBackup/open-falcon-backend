@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/Cepave/open-falcon-backend/modules/graph/g"
-	"github.com/Cepave/open-falcon-backend/modules/graph/store"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/graph/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/graph/store"
 	"github.com/toolkits/file"
 )
 

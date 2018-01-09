@@ -9,12 +9,12 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/jmoiron/sqlx"
 
-	commonDb "github.com/Cepave/open-falcon-backend/common/db"
-	gormExt "github.com/Cepave/open-falcon-backend/common/gorm"
-	commonModel "github.com/Cepave/open-falcon-backend/common/model"
-	nqmModel "github.com/Cepave/open-falcon-backend/common/model/nqm"
-	tb "github.com/Cepave/open-falcon-backend/common/textbuilder"
-	sqlb "github.com/Cepave/open-falcon-backend/common/textbuilder/sql"
+	commonDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db"
+	gormExt "github.com/DistributedMonitoringSystem/open-falcon-backend/common/gorm"
+	commonModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	nqmModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/nqm"
+	tb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/textbuilder"
+	sqlb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/textbuilder/sql"
 )
 
 type addAgentPingtaskTx struct {

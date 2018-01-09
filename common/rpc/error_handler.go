@@ -3,10 +3,10 @@ package rpc
 import (
 	"fmt"
 
-	log "github.com/Cepave/open-falcon-backend/common/logruslog"
-	or "github.com/Cepave/open-falcon-backend/common/runtime"
+	log "github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
+	or "github.com/DistributedMonitoringSystem/open-falcon-backend/common/runtime"
 
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/utils"
 )
 
 var logger = log.NewDefaultLogger("WARN")

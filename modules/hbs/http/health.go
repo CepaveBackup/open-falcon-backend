@@ -3,9 +3,9 @@ package http
 import (
 	"net/http"
 
-	"github.com/Cepave/open-falcon-backend/modules/hbs/g"
-	"github.com/Cepave/open-falcon-backend/modules/hbs/rpc"
-	"github.com/Cepave/open-falcon-backend/modules/hbs/service"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/hbs/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/hbs/rpc"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/hbs/service"
 	"github.com/gin-gonic/gin"
 )
 

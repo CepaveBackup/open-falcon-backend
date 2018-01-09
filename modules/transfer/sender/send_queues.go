@@ -1,7 +1,7 @@
 package sender
 
 import (
-	"github.com/Cepave/open-falcon-backend/modules/transfer/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/transfer/g"
 	nlist "github.com/toolkits/container/list"
 )
 

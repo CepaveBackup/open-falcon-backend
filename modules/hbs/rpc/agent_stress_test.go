@@ -4,7 +4,7 @@ import (
 	"net/rpc"
 	"strconv"
 
-	coModel "github.com/Cepave/open-falcon-backend/common/model"
+	coModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
 	. "github.com/onsi/ginkgo"
 )
 

@@ -2,8 +2,8 @@ package nqm
 
 import (
 	"fmt"
-	ojson "github.com/Cepave/open-falcon-backend/common/json"
-	owlModel "github.com/Cepave/open-falcon-backend/common/model/owl"
+	ojson "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	owlModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/owl"
 	sjson "github.com/bitly/go-simplejson"
 )
 

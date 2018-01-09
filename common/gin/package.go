@@ -1,7 +1,7 @@
 package gin
 
 import (
-	"github.com/Cepave/open-falcon-backend/common/logruslog"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
 )
 
 var logger = logruslog.NewDefaultLogger("INFO")

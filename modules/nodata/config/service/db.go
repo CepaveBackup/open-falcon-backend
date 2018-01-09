@@ -6,7 +6,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"sync"
 
-	"github.com/Cepave/open-falcon-backend/modules/nodata/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/nodata/g"
 )
 
 const (

@@ -6,10 +6,10 @@ import (
 
 	"encoding/json"
 
-	cmodel "github.com/Cepave/open-falcon-backend/common/model"
-	"github.com/Cepave/open-falcon-backend/modules/query/gin_http/computeFunc"
-	"github.com/Cepave/open-falcon-backend/modules/query/gin_http/openFalcon"
-	"github.com/Cepave/open-falcon-backend/modules/query/model"
+	cmodel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/gin_http/computeFunc"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/gin_http/openFalcon"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/model"
 	"github.com/Jeffail/gabs"
 	"github.com/emirpasic/gods/sets/hashset"
 	"github.com/gin-gonic/gin"

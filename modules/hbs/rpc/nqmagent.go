@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Cepave/open-falcon-backend/common/json"
-	commonModel "github.com/Cepave/open-falcon-backend/common/model"
-	nqmModel "github.com/Cepave/open-falcon-backend/common/model/nqm"
-	"github.com/Cepave/open-falcon-backend/common/rpc"
-	nqmService "github.com/Cepave/open-falcon-backend/common/service/nqm"
-	"github.com/Cepave/open-falcon-backend/modules/hbs/service"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	commonModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	nqmModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/nqm"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/rpc"
+	nqmService "github.com/DistributedMonitoringSystem/open-falcon-backend/common/service/nqm"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/hbs/service"
 	"github.com/asaskevich/govalidator"
 	"github.com/dghubble/sling"
 )

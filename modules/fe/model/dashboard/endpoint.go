@@ -1,8 +1,8 @@
 package dashboard
 
 import (
-	"github.com/Cepave/open-falcon-backend/common/model"
-	"github.com/Cepave/open-falcon-backend/modules/fe/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/fe/g"
 	"github.com/astaxie/beego/orm"
 )
 

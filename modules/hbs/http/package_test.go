@@ -3,8 +3,8 @@ package http
 import (
 	"testing"
 
-	tFlag "github.com/Cepave/open-falcon-backend/common/testing/flag"
-	tHttp "github.com/Cepave/open-falcon-backend/common/testing/http"
+	tFlag "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/flag"
+	tHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/http"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

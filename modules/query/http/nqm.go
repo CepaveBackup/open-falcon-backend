@@ -14,15 +14,15 @@ import (
 	"github.com/satori/go.uuid"
 	"gopkg.in/go-playground/validator.v9"
 
-	nqmDb "github.com/Cepave/open-falcon-backend/common/db/nqm"
-	ogin "github.com/Cepave/open-falcon-backend/common/gin"
-	ginmvc "github.com/Cepave/open-falcon-backend/common/gin/mvc"
-	commonModel "github.com/Cepave/open-falcon-backend/common/model"
+	nqmDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/nqm"
+	ogin "github.com/DistributedMonitoringSystem/open-falcon-backend/common/gin"
+	ginmvc "github.com/DistributedMonitoringSystem/open-falcon-backend/common/gin/mvc"
+	commonModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
 
-	metricDsl "github.com/Cepave/open-falcon-backend/modules/query/dsl/metric_parser"
-	dsl "github.com/Cepave/open-falcon-backend/modules/query/dsl/nqm_parser"
-	model "github.com/Cepave/open-falcon-backend/modules/query/model/nqm"
-	"github.com/Cepave/open-falcon-backend/modules/query/nqm"
+	metricDsl "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/dsl/metric_parser"
+	dsl "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/dsl/nqm_parser"
+	model "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/model/nqm"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/nqm"
 )
 
 var nqmService *nqm.ServiceController

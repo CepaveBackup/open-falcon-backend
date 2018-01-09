@@ -3,7 +3,7 @@ package owl
 import (
 	"time"
 
-	"github.com/Cepave/open-falcon-backend/common/db"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/db"
 )
 
 func RemoveOldScheduleLogs(t time.Time) int64 {

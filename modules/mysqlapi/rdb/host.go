@@ -1,10 +1,10 @@
 package rdb
 
 import (
-	commonDb "github.com/Cepave/open-falcon-backend/common/db"
-	gormExt "github.com/Cepave/open-falcon-backend/common/gorm"
-	commonModel "github.com/Cepave/open-falcon-backend/common/model"
-	"github.com/Cepave/open-falcon-backend/modules/mysqlapi/model"
+	commonDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db"
+	gormExt "github.com/DistributedMonitoringSystem/open-falcon-backend/common/gorm"
+	commonModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/model"
 	"github.com/jinzhu/gorm"
 	"github.com/juju/errors"
 )

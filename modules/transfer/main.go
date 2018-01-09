@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Cepave/open-falcon-backend/common/logruslog"
-	"github.com/Cepave/open-falcon-backend/common/vipercfg"
-	"github.com/Cepave/open-falcon-backend/modules/transfer/g"
-	"github.com/Cepave/open-falcon-backend/modules/transfer/http"
-	"github.com/Cepave/open-falcon-backend/modules/transfer/proc"
-	"github.com/Cepave/open-falcon-backend/modules/transfer/receiver"
-	"github.com/Cepave/open-falcon-backend/modules/transfer/sender"
-	"github.com/Cepave/open-falcon-backend/modules/transfer/service"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/vipercfg"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/transfer/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/transfer/http"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/transfer/proc"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/transfer/receiver"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/transfer/sender"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/transfer/service"
 )
 
 func main() {

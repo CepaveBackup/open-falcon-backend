@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	cmodel "github.com/Cepave/open-falcon-backend/common/model"
-	"github.com/Cepave/open-falcon-backend/modules/query/g"
-	"github.com/Cepave/open-falcon-backend/modules/query/graph"
+	cmodel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/graph"
 	"github.com/astaxie/beego/orm"
 	"github.com/jasonlvhit/gocron"
 	log "github.com/sirupsen/logrus"

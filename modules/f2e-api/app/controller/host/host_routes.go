@@ -3,8 +3,8 @@ package host
 import (
 	"net/http"
 
-	"github.com/Cepave/open-falcon-backend/modules/f2e-api/app/utils"
-	"github.com/Cepave/open-falcon-backend/modules/f2e-api/config"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/utils"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/config"
 	"github.com/gin-gonic/gin"
 )
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	m "github.com/Cepave/open-falcon-backend/modules/f2e-api/app/model/dashboard"
+	m "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/model/dashboard"
 )
 
 type GraphObj struct {

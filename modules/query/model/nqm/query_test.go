@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"time"
 
-	ojson "github.com/Cepave/open-falcon-backend/common/json"
-	nqmModel "github.com/Cepave/open-falcon-backend/common/model/nqm"
-	ocheck "github.com/Cepave/open-falcon-backend/common/testing/check"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	ojson "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	nqmModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/nqm"
+	ocheck "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/check"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/utils"
 
-	t "github.com/Cepave/open-falcon-backend/common/testing"
+	t "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing"
 	. "gopkg.in/check.v1"
 )
 

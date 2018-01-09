@@ -1,9 +1,9 @@
 package owl
 
 import (
-	"github.com/Cepave/open-falcon-backend/common/gin/mvc"
-	json "github.com/Cepave/open-falcon-backend/common/json"
-	ogk "github.com/Cepave/open-falcon-backend/common/testing/ginkgo"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/gin/mvc"
+	json "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	ogk "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/ginkgo"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

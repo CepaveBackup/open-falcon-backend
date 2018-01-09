@@ -2,7 +2,7 @@ package db
 
 import (
 	"fmt"
-	"github.com/Cepave/open-falcon-backend/modules/aggregator/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/aggregator/g"
 	log "github.com/sirupsen/logrus"
 )
 

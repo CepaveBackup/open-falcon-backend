@@ -3,10 +3,10 @@ package service
 import (
 	"testing"
 
-	f "github.com/Cepave/open-falcon-backend/common/db/facade"
-	tDb "github.com/Cepave/open-falcon-backend/common/testing/db"
-	tFlag "github.com/Cepave/open-falcon-backend/common/testing/flag"
-	"github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb"
+	f "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/facade"
+	tDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/db"
+	tFlag "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/flag"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

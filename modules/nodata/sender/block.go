@@ -12,12 +12,12 @@ import (
 	"sync"
 	"time"
 
-	cmodel "github.com/Cepave/open-falcon-backend/common/model"
+	cmodel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
 	tcron "github.com/toolkits/cron"
 	thttpclient "github.com/toolkits/http/httpclient"
 	ttime "github.com/toolkits/time"
 
-	"github.com/Cepave/open-falcon-backend/modules/nodata/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/nodata/g"
 )
 
 var (

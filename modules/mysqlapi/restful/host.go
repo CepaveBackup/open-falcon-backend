@@ -1,9 +1,9 @@
 package restful
 
 import (
-	mvc "github.com/Cepave/open-falcon-backend/common/gin/mvc"
-	commonModel "github.com/Cepave/open-falcon-backend/common/model"
-	"github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb"
+	mvc "github.com/DistributedMonitoringSystem/open-falcon-backend/common/gin/mvc"
+	commonModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb"
 )
 
 func listHosts(

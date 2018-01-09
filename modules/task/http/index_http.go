@@ -3,8 +3,8 @@ package http
 import (
 	"net/http"
 
-	"github.com/Cepave/open-falcon-backend/modules/task/index"
-	srv "github.com/Cepave/open-falcon-backend/modules/task/service"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/task/index"
+	srv "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/task/service"
 )
 
 func configIndexHttpRoutes() {

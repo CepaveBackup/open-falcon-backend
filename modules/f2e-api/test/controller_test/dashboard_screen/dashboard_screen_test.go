@@ -10,8 +10,8 @@ import (
 
 	"bytes"
 
-	"github.com/Cepave/open-falcon-backend/modules/f2e-api/app/controller"
-	"github.com/Cepave/open-falcon-backend/modules/f2e-api/config"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/controller"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/config"
 	"github.com/gin-gonic/gin"
 	yaagGin "github.com/masato25/yaag/gin"
 	"github.com/masato25/yaag/yaag"

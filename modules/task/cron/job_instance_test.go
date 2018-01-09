@@ -4,11 +4,11 @@ import (
 	"github.com/satori/go.uuid"
 	"time"
 
-	oJson "github.com/Cepave/open-falcon-backend/common/json"
-	owlModel "github.com/Cepave/open-falcon-backend/common/model/owl"
-	owlSrv "github.com/Cepave/open-falcon-backend/common/service/owl"
+	oJson "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	owlModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/owl"
+	owlSrv "github.com/DistributedMonitoringSystem/open-falcon-backend/common/service/owl"
 
-	"github.com/Cepave/open-falcon-backend/modules/task/database"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/task/database"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

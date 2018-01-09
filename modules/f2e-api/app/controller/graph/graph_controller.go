@@ -6,11 +6,11 @@ import (
 
 	"net/http"
 
-	cmodel "github.com/Cepave/open-falcon-backend/common/model"
-	h "github.com/Cepave/open-falcon-backend/modules/f2e-api/app/helper"
-	m "github.com/Cepave/open-falcon-backend/modules/f2e-api/app/model/graph"
-	"github.com/Cepave/open-falcon-backend/modules/f2e-api/app/utils"
-	g "github.com/Cepave/open-falcon-backend/modules/f2e-api/graph"
+	cmodel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	h "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/helper"
+	m "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/model/graph"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/utils"
+	g "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/graph"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	log "github.com/sirupsen/logrus"

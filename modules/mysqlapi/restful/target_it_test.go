@@ -3,12 +3,12 @@ package restful
 import (
 	"net/http"
 
-	json "github.com/Cepave/open-falcon-backend/common/json"
-	ocheck "github.com/Cepave/open-falcon-backend/common/testing/check"
-	testingHttp "github.com/Cepave/open-falcon-backend/common/testing/http"
-	testingDb "github.com/Cepave/open-falcon-backend/modules/mysqlapi/testing"
+	json "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	ocheck "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/check"
+	testingHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/http"
+	testingDb "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/testing"
 
-	rdb "github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb"
+	rdb "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb"
 
 	. "gopkg.in/check.v1"
 )

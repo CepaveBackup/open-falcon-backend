@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"time"
 
-	ojson "github.com/Cepave/open-falcon-backend/common/json"
-	nqmModel "github.com/Cepave/open-falcon-backend/common/model/nqm"
-	commonQueue "github.com/Cepave/open-falcon-backend/common/queue"
+	ojson "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	nqmModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/nqm"
+	commonQueue "github.com/DistributedMonitoringSystem/open-falcon-backend/common/queue"
 	"github.com/icrowley/fake"
 
 	. "github.com/onsi/ginkgo"

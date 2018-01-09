@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	owlModel "github.com/Cepave/open-falcon-backend/common/model/owl"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	owlModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/owl"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/utils"
 	json "github.com/bitly/go-simplejson"
 )
 

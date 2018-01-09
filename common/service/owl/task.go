@@ -7,9 +7,9 @@ import (
 
 	gt "gopkg.in/h2non/gentleman.v2"
 
-	oHttp "github.com/Cepave/open-falcon-backend/common/http"
-	"github.com/Cepave/open-falcon-backend/common/http/client"
-	"github.com/Cepave/open-falcon-backend/common/json"
+	oHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/http"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/http/client"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
 )
 
 type ClearLogServiceConfig struct {

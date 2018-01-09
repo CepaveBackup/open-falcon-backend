@@ -7,21 +7,21 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/utils"
 	"github.com/jinzhu/gorm"
 	"github.com/jmoiron/sqlx"
 	"github.com/juju/errors"
 
-	commonDb "github.com/Cepave/open-falcon-backend/common/db"
-	owlDb "github.com/Cepave/open-falcon-backend/common/db/owl"
-	sqlxExt "github.com/Cepave/open-falcon-backend/common/db/sqlx"
-	gormExt "github.com/Cepave/open-falcon-backend/common/gorm"
-	ojson "github.com/Cepave/open-falcon-backend/common/json"
-	commonModel "github.com/Cepave/open-falcon-backend/common/model"
-	nqmModel "github.com/Cepave/open-falcon-backend/common/model/nqm"
-	owlModel "github.com/Cepave/open-falcon-backend/common/model/owl"
-	tb "github.com/Cepave/open-falcon-backend/common/textbuilder"
-	sqlb "github.com/Cepave/open-falcon-backend/common/textbuilder/sql"
+	commonDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db"
+	owlDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/owl"
+	sqlxExt "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/sqlx"
+	gormExt "github.com/DistributedMonitoringSystem/open-falcon-backend/common/gorm"
+	ojson "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	commonModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	nqmModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/nqm"
+	owlModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/owl"
+	tb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/textbuilder"
+	sqlb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/textbuilder/sql"
 )
 
 type ErrDuplicatedNqmAgent struct {

@@ -1,9 +1,9 @@
 package cron
 
 import (
-	log "github.com/Cepave/open-falcon-backend/common/logruslog"
+	log "github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
 
-	ocron "github.com/Cepave/open-falcon-backend/common/cron"
+	ocron "github.com/DistributedMonitoringSystem/open-falcon-backend/common/cron"
 
 	"github.com/juju/errors"
 	"github.com/robfig/cron"

@@ -2,18 +2,18 @@ package main
 
 import (
 	"fmt"
-	"github.com/Cepave/open-falcon-backend/common/logruslog"
-	"github.com/Cepave/open-falcon-backend/common/vipercfg"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/vipercfg"
 	log "github.com/sirupsen/logrus"
 	"os"
 	"os/signal"
 	"syscall"
 
-	"github.com/Cepave/open-falcon-backend/modules/graph/api"
-	"github.com/Cepave/open-falcon-backend/modules/graph/g"
-	"github.com/Cepave/open-falcon-backend/modules/graph/http"
-	"github.com/Cepave/open-falcon-backend/modules/graph/index"
-	"github.com/Cepave/open-falcon-backend/modules/graph/rrdtool"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/graph/api"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/graph/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/graph/http"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/graph/index"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/graph/rrdtool"
 )
 
 func start_signal(pid int, cfg *g.GlobalConfig) {

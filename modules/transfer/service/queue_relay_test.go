@@ -1,9 +1,9 @@
 package service
 
 import (
-	cmodel "github.com/Cepave/open-falcon-backend/common/model"
+	cmodel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
 
-	"github.com/Cepave/open-falcon-backend/modules/transfer/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/transfer/g"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

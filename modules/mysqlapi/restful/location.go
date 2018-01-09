@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strconv"
 
-	commonOwlDb "github.com/Cepave/open-falcon-backend/common/db/owl"
-	commonGin "github.com/Cepave/open-falcon-backend/common/gin"
-	"github.com/Cepave/open-falcon-backend/common/gin/mvc"
+	commonOwlDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/owl"
+	commonGin "github.com/DistributedMonitoringSystem/open-falcon-backend/common/gin"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/gin/mvc"
 	"github.com/gin-gonic/gin"
 )
 

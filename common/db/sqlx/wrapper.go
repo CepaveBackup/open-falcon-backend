@@ -6,10 +6,10 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/Cepave/open-falcon-backend/common/db"
-	commonModel "github.com/Cepave/open-falcon-backend/common/model"
-	or "github.com/Cepave/open-falcon-backend/common/runtime"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/db"
+	commonModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	or "github.com/DistributedMonitoringSystem/open-falcon-backend/common/runtime"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/utils"
 )
 
 var buildError = utils.BuildErrorWithCaller

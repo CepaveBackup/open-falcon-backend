@@ -3,9 +3,9 @@ package service
 import (
 	gt "gopkg.in/h2non/gentleman.v2"
 
-	oHttp "github.com/Cepave/open-falcon-backend/common/http"
-	"github.com/Cepave/open-falcon-backend/common/http/client"
-	apiModel "github.com/Cepave/open-falcon-backend/common/model/mysqlapi"
+	oHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/http"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/http/client"
+	apiModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/mysqlapi"
 )
 
 type MysqlApiServiceConfig struct {

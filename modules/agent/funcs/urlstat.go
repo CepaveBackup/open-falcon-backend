@@ -7,8 +7,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"strings"
 
-	"github.com/Cepave/open-falcon-backend/common/model"
-	"github.com/Cepave/open-falcon-backend/modules/agent/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/agent/g"
 	"github.com/toolkits/file"
 	"github.com/toolkits/sys"
 )

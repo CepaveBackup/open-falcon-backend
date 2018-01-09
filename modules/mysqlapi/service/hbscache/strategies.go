@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Cepave/open-falcon-backend/common/model"
-	db "github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb/hbsdb"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	db "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb/hbsdb"
 	log "github.com/sirupsen/logrus"
 	"github.com/toolkits/container/set"
 )

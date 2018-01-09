@@ -2,7 +2,7 @@ package check
 
 import (
 	"fmt"
-	ot "github.com/Cepave/open-falcon-backend/common/reflect/types"
+	ot "github.com/DistributedMonitoringSystem/open-falcon-backend/common/reflect/types"
 	"gopkg.in/check.v1"
 	"reflect"
 )

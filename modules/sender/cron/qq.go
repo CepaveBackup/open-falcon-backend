@@ -1,10 +1,10 @@
 package cron
 
 import (
-	"github.com/Cepave/open-falcon-backend/modules/sender/g"
-	"github.com/Cepave/open-falcon-backend/modules/sender/model"
-	"github.com/Cepave/open-falcon-backend/modules/sender/proc"
-	"github.com/Cepave/open-falcon-backend/modules/sender/redis"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/sender/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/sender/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/sender/proc"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/sender/redis"
 	//"github.com/toolkits/net/httplib"
 	log "github.com/sirupsen/logrus"
 	"os/exec"

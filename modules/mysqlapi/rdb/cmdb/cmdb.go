@@ -3,11 +3,11 @@ package cmdb
 import (
 	"github.com/jmoiron/sqlx"
 
-	commonDb "github.com/Cepave/open-falcon-backend/common/db"
-	sqlxExt "github.com/Cepave/open-falcon-backend/common/db/sqlx"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	commonDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db"
+	sqlxExt "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/sqlx"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/utils"
 
-	cmdbModel "github.com/Cepave/open-falcon-backend/modules/mysqlapi/model"
+	cmdbModel "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/model"
 )
 
 const (

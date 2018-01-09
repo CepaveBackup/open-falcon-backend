@@ -10,10 +10,10 @@ import (
 	"github.com/toolkits/container/list"
 	nproc "github.com/toolkits/proc"
 
-	cmodel "github.com/Cepave/open-falcon-backend/common/model"
+	cmodel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
 
-	"github.com/Cepave/open-falcon-backend/modules/transfer/g"
-	"github.com/Cepave/open-falcon-backend/modules/transfer/proc"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/transfer/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/transfer/proc"
 )
 
 // send

@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	cmodel "github.com/Cepave/open-falcon-backend/common/model"
-	cutils "github.com/Cepave/open-falcon-backend/common/utils"
-	"github.com/Cepave/open-falcon-backend/modules/graph/api"
-	"github.com/Cepave/open-falcon-backend/modules/graph/g"
-	"github.com/Cepave/open-falcon-backend/modules/graph/store"
+	cmodel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	cutils "github.com/DistributedMonitoringSystem/open-falcon-backend/common/utils"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/graph/api"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/graph/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/graph/store"
 )
 
 func configDebugRoutes() {

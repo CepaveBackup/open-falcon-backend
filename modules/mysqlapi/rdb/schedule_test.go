@@ -6,9 +6,9 @@ import (
 	"math/rand"
 	"time"
 
-	owlModel "github.com/Cepave/open-falcon-backend/common/model/owl"
+	owlModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/owl"
 
-	"github.com/Cepave/open-falcon-backend/modules/mysqlapi/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/model"
 	"github.com/satori/go.uuid"
 
 	. "github.com/onsi/ginkgo"

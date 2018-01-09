@@ -1,9 +1,9 @@
 package rpc
 
 import (
-	"github.com/Cepave/open-falcon-backend/common/model"
-	"github.com/Cepave/open-falcon-backend/modules/judge/g"
-	"github.com/Cepave/open-falcon-backend/modules/judge/store"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/judge/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/judge/store"
 	"time"
 )
 

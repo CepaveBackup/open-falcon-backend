@@ -4,11 +4,11 @@ import (
 	log "github.com/sirupsen/logrus"
 	"sync"
 
-	cmodel "github.com/Cepave/open-falcon-backend/common/model"
+	cmodel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
 	"github.com/toolkits/container/nmap"
 
-	"github.com/Cepave/open-falcon-backend/modules/nodata/config/service"
-	"github.com/Cepave/open-falcon-backend/modules/nodata/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/nodata/config/service"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/nodata/g"
 )
 
 // nodata配置(mockcfg)的缓存, 这些数据来自配置中心

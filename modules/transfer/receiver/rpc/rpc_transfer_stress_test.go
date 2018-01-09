@@ -7,8 +7,8 @@ import (
 
 	rd "github.com/Pallinder/go-randomdata"
 
-	cmodel "github.com/Cepave/open-falcon-backend/common/model"
-	trpc "github.com/Cepave/open-falcon-backend/common/testing/jsonrpc"
+	cmodel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	trpc "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/jsonrpc"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -7,19 +7,19 @@ import (
 
 	"github.com/spf13/viper"
 
-	oHttp "github.com/Cepave/open-falcon-backend/common/http"
-	"github.com/Cepave/open-falcon-backend/common/http/client"
-	"github.com/Cepave/open-falcon-backend/common/logruslog"
-	"github.com/Cepave/open-falcon-backend/common/vipercfg"
+	oHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/http"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/http/client"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/vipercfg"
 
-	"github.com/Cepave/open-falcon-backend/modules/query/conf"
-	"github.com/Cepave/open-falcon-backend/modules/query/database"
-	"github.com/Cepave/open-falcon-backend/modules/query/g"
-	ginHttp "github.com/Cepave/open-falcon-backend/modules/query/gin_http"
-	"github.com/Cepave/open-falcon-backend/modules/query/graph"
-	"github.com/Cepave/open-falcon-backend/modules/query/grpc"
-	"github.com/Cepave/open-falcon-backend/modules/query/http"
-	"github.com/Cepave/open-falcon-backend/modules/query/proc"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/conf"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/database"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/g"
+	ginHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/gin_http"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/graph"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/grpc"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/http"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/proc"
 )
 
 func main() {

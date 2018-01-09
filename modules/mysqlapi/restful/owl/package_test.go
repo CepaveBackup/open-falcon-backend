@@ -3,10 +3,10 @@ package owl
 import (
 	"testing"
 
-	f "github.com/Cepave/open-falcon-backend/common/db/facade"
-	tDb "github.com/Cepave/open-falcon-backend/common/testing/db"
-	tFlag "github.com/Cepave/open-falcon-backend/common/testing/flag"
-	tHttp "github.com/Cepave/open-falcon-backend/common/testing/http"
+	f "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/facade"
+	tDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/db"
+	tFlag "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/flag"
+	tHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/http"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

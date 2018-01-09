@@ -3,7 +3,7 @@ package nqmDemo
 import (
 	"encoding/json"
 
-	h "github.com/Cepave/open-falcon-backend/modules/f2e-api/app/helper"
+	h "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/helper"
 	"github.com/gin-gonic/gin"
 )
 

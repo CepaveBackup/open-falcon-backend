@@ -1,7 +1,7 @@
 package nqm
 
 import (
-	ojson "github.com/Cepave/open-falcon-backend/common/json"
+	ojson "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
 	sjson "github.com/bitly/go-simplejson"
 )
 

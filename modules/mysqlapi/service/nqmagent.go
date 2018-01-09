@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"time"
 
-	log "github.com/Cepave/open-falcon-backend/common/logruslog"
-	nqmModel "github.com/Cepave/open-falcon-backend/common/model/nqm"
-	commonQueue "github.com/Cepave/open-falcon-backend/common/queue"
-	"github.com/Cepave/open-falcon-backend/common/utils"
-	"github.com/Cepave/open-falcon-backend/modules/mysqlapi/model"
-	"github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb"
+	log "github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
+	nqmModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/nqm"
+	commonQueue "github.com/DistributedMonitoringSystem/open-falcon-backend/common/queue"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/utils"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb"
 )
 
 var logger = log.NewDefaultLogger("INFO")

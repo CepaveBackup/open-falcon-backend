@@ -3,8 +3,8 @@ package hbscache
 import (
 	"sync"
 
-	"github.com/Cepave/open-falcon-backend/common/model"
-	db "github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb/hbsdb"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	db "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb/hbsdb"
 )
 
 // 一个HostGroup对应多个Template

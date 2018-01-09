@@ -1,9 +1,9 @@
 package http
 
 import (
-	"github.com/Cepave/open-falcon-backend/common/logruslog"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
 
-	oflag "github.com/Cepave/open-falcon-backend/common/testing/flag"
+	oflag "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/flag"
 )
 
 var logger = logruslog.NewDefaultLogger("INFO")

@@ -5,10 +5,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/Cepave/open-falcon-backend/common/model"
-	"github.com/Cepave/open-falcon-backend/common/rpc"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/rpc"
 
-	"github.com/Cepave/open-falcon-backend/modules/hbs/service"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/hbs/service"
 )
 
 var AgentHeartbeatService *service.AgentHeartbeatService

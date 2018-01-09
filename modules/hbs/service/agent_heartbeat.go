@@ -5,9 +5,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	cModel "github.com/Cepave/open-falcon-backend/common/model"
-	cQueue "github.com/Cepave/open-falcon-backend/common/queue"
-	"github.com/Cepave/open-falcon-backend/modules/hbs/cache"
+	cModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model"
+	cQueue "github.com/DistributedMonitoringSystem/open-falcon-backend/common/queue"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/hbs/cache"
 )
 
 var (

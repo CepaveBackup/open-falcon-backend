@@ -5,10 +5,10 @@ import (
 
 	viper "github.com/spf13/viper"
 
-	log "github.com/Cepave/open-falcon-backend/common/logruslog"
-	commonQueue "github.com/Cepave/open-falcon-backend/common/queue"
-	nqmService "github.com/Cepave/open-falcon-backend/common/service/nqm"
-	hbsService "github.com/Cepave/open-falcon-backend/modules/hbs/service"
+	log "github.com/DistributedMonitoringSystem/open-falcon-backend/common/logruslog"
+	commonQueue "github.com/DistributedMonitoringSystem/open-falcon-backend/common/queue"
+	nqmService "github.com/DistributedMonitoringSystem/open-falcon-backend/common/service/nqm"
+	hbsService "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/hbs/service"
 )
 
 var logger = log.NewDefaultLogger("INFO")

@@ -9,8 +9,8 @@ import (
 
 	"io/ioutil"
 
-	h "github.com/Cepave/open-falcon-backend/modules/f2e-api/app/helper"
-	f "github.com/Cepave/open-falcon-backend/modules/f2e-api/app/model/falcon_portal"
+	h "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/helper"
+	f "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/f2e-api/app/model/falcon_portal"
 	"github.com/gin-gonic/gin"
 	"os"
 	"path/filepath"

@@ -1,9 +1,9 @@
 package database
 
 import (
-	oHttp "github.com/Cepave/open-falcon-backend/common/http"
-	graphSrv "github.com/Cepave/open-falcon-backend/common/service/graph"
-	owlSrv "github.com/Cepave/open-falcon-backend/common/service/owl"
+	oHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/http"
+	graphSrv "github.com/DistributedMonitoringSystem/open-falcon-backend/common/service/graph"
+	owlSrv "github.com/DistributedMonitoringSystem/open-falcon-backend/common/service/owl"
 )
 
 var QueryObjectService owlSrv.QueryService

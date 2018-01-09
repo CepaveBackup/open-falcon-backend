@@ -1,9 +1,9 @@
 package db
 
 import (
-	commonDb "github.com/Cepave/open-falcon-backend/common/db"
-	f "github.com/Cepave/open-falcon-backend/common/db/facade"
-	tflag "github.com/Cepave/open-falcon-backend/common/testing/flag"
+	commonDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db"
+	f "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/facade"
+	tflag "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/flag"
 
 	. "github.com/onsi/gomega"
 )

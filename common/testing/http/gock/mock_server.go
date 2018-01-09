@@ -60,11 +60,11 @@ import (
 	"gopkg.in/h2non/gentleman.v2/plugin"
 	"gopkg.in/h2non/gock.v1"
 
-	oHttp "github.com/Cepave/open-falcon-backend/common/http"
-	"github.com/Cepave/open-falcon-backend/common/http/client"
-	ojson "github.com/Cepave/open-falcon-backend/common/json"
-	tHttp "github.com/Cepave/open-falcon-backend/common/testing/http"
-	gp "github.com/Cepave/open-falcon-backend/common/testing/http/gock_plugin"
+	oHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/http"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/http/client"
+	ojson "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	tHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/http"
+	gp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/http/gock_plugin"
 )
 
 // Functions in namespace for building of *GockConfig

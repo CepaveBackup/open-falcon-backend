@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 
-	json "github.com/Cepave/open-falcon-backend/common/json"
-	ogko "github.com/Cepave/open-falcon-backend/common/testing/ginkgo"
-	tHttp "github.com/Cepave/open-falcon-backend/common/testing/http"
+	json "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	ogko "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/ginkgo"
+	tHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/http"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

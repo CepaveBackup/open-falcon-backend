@@ -4,14 +4,14 @@ import (
 	"github.com/jinzhu/gorm"
 	log "github.com/sirupsen/logrus"
 
-	cdb "github.com/Cepave/open-falcon-backend/common/db"
-	"github.com/Cepave/open-falcon-backend/common/db/facade"
-	nqmDb "github.com/Cepave/open-falcon-backend/common/db/nqm"
-	owlDb "github.com/Cepave/open-falcon-backend/common/db/owl"
-	oHttp "github.com/Cepave/open-falcon-backend/common/http"
-	owlSrv "github.com/Cepave/open-falcon-backend/common/service/owl"
+	cdb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/facade"
+	nqmDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/nqm"
+	owlDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/owl"
+	oHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/http"
+	owlSrv "github.com/DistributedMonitoringSystem/open-falcon-backend/common/service/owl"
 
-	"github.com/Cepave/open-falcon-backend/modules/query/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/query/g"
 
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )

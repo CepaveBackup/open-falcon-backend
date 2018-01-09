@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	ojson "github.com/Cepave/open-falcon-backend/common/json"
+	ojson "github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
 )
 
 type UnableToLockCmdbSyncJob struct {

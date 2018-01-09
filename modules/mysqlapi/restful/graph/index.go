@@ -3,9 +3,9 @@ package graph
 import (
 	"time"
 
-	"github.com/Cepave/open-falcon-backend/common/gin/mvc"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/gin/mvc"
 
-	db "github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb/graph"
+	db "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb/graph"
 )
 
 type relativeTimeParams struct {

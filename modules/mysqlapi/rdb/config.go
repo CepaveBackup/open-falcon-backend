@@ -1,8 +1,8 @@
 package rdb
 
 import (
-	gormExt "github.com/Cepave/open-falcon-backend/common/gorm"
-	"github.com/Cepave/open-falcon-backend/modules/mysqlapi/model"
+	gormExt "github.com/DistributedMonitoringSystem/open-falcon-backend/common/gorm"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/model"
 )
 
 func GetAgentConfig(key string) *model.AgentConfigResult {

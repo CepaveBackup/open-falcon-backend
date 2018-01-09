@@ -4,12 +4,12 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/Cepave/open-falcon-backend/modules/hbs/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/hbs/g"
 
-	apiModel "github.com/Cepave/open-falcon-backend/common/model/mysqlapi"
-	tg "github.com/Cepave/open-falcon-backend/common/testing/ginkgo"
-	tHttp "github.com/Cepave/open-falcon-backend/common/testing/http"
-	mock "github.com/Cepave/open-falcon-backend/common/testing/http/gock"
+	apiModel "github.com/DistributedMonitoringSystem/open-falcon-backend/common/model/mysqlapi"
+	tg "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/ginkgo"
+	tHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/http"
+	mock "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/http/gock"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

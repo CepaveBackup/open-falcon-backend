@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"strconv"
 
-	nqmTestinglDb "github.com/Cepave/open-falcon-backend/common/db/nqm/testing"
-	"github.com/Cepave/open-falcon-backend/common/json"
-	testingHttp "github.com/Cepave/open-falcon-backend/common/testing/http"
-	rdb "github.com/Cepave/open-falcon-backend/modules/mysqlapi/rdb"
-	testingDb "github.com/Cepave/open-falcon-backend/modules/mysqlapi/testing"
+	nqmTestinglDb "github.com/DistributedMonitoringSystem/open-falcon-backend/common/db/nqm/testing"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/common/json"
+	testingHttp "github.com/DistributedMonitoringSystem/open-falcon-backend/common/testing/http"
+	rdb "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/rdb"
+	testingDb "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/mysqlapi/testing"
 
 	. "gopkg.in/check.v1"
 )

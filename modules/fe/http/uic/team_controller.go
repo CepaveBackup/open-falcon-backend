@@ -1,10 +1,10 @@
 package uic
 
 import (
-	"github.com/Cepave/open-falcon-backend/modules/fe/g"
-	"github.com/Cepave/open-falcon-backend/modules/fe/http/base"
-	. "github.com/Cepave/open-falcon-backend/modules/fe/model/uic"
-	"github.com/Cepave/open-falcon-backend/modules/fe/utils"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/fe/g"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/fe/http/base"
+	. "github.com/DistributedMonitoringSystem/open-falcon-backend/modules/fe/model/uic"
+	"github.com/DistributedMonitoringSystem/open-falcon-backend/modules/fe/utils"
 	"strings"
 )
 
